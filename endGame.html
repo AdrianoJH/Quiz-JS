@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./CSS/endGame.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>End Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="endGame" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="endText">Insira seu nome para salvar seus pontos!</h2>
+                <input type="text" name="name" id="username" placeholder="Insira seu nome">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)"
+                    disabled>Salvar</button>
+            </form>
+            <a href="/questions.html" class="btn" id="play-again">Jogar Novamente</a>
+            <a href="/index.html" class="btn" id="inicio">Início<span class="material-symbols-outlined" id="house">house</span></a>
+        </div>
+
+    </div>
+</body>
+<script src="./JS/endGame.js"></script>
+
+</html>

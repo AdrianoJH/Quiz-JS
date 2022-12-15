@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./CSS/question.css">
+    <title>Questions</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="questions" class="justify-center flex-column">
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progressText" class="hud-prefix">
+                        Questão
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Pontos
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h2 id="question">O que é vanilha JavaScript?</h2>
+            <div class="option-container">
+                <div class="option-container2">
+                    <p class="option-prefix"> A </p>
+                    <p class="option-text" data-number="1">option</p>
+                </div>
+                <div class="option-container2">
+                    <p class="option-prefix"> B </p>
+                    <p class="option-text" data-number="2">option 2</p>
+                </div>
+                <div class="option-container2">
+                    <p class="option-prefix"> C </p>
+                    <p class="option-text" data-number="3">option 3</p>
+                </div>
+                <div class="option-container2">
+                    <p class="option-prefix"> D </p>
+                    <p class="option-text" data-number="4">option 4</p>
+                </div>
+
+            </div>
+        </div>
+        <img src="./img/devstars.png" alt="logo" id="img-logo">
+    </div>
+</body>
+<script src="./data/questions.js"></script>
+
+</html>
